@@ -3,7 +3,13 @@ const router = express.Router();
 
 //routes
 router.get("", (req, res) => {
-  res.render("index");
+  const locals = {
+    title: "NodeJs blog",
+    description: "nodejs in mongo db",
+  };
+
+  
+  res.render("index", { locals });
 });
 
 router.get("/about", (req, res) => {
