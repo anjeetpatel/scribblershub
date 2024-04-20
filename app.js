@@ -8,8 +8,11 @@ const connectDB = require("./server/config/db");
 const app = express();
 const PORT = 5000 || process_env.PORT;
 
-//connect to db 
+//connect to db
 connectDB();
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.use(express.static("public"));
 
