@@ -9,10 +9,9 @@
     <script type="text/javascript" defer src="/js/script.js"></script>
   </head>
   <body>
+    <%- include('../partials/search.ejs') %>
     <div class="container"><%- include('../partials/header.ejs') %></div>
-    <main class="main">
-        <%- body %>
-    </main>
+    <main class="main"><%- body %></main>
     <div class="container"><%- include('../partials/footer.ejs') %></div>
   </body>
 </html>
