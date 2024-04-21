@@ -11,12 +11,10 @@
 />
 <section class="articles">
   <h2 class="articles__heading">Latest Posts</h2>
+
+
   <ul class="article-ul">
-
-
-    <% data.forEach(post => { %>
-     
-
+  <% data.forEach(post => { %>
       <li>
         <a href="/post/<%= post._id %>">
           <span><%= post.title %></span>
@@ -24,8 +22,7 @@
             <%= post.createdAt.toDateString() %>
           </span>
         </a>
-      </li>
-      
+      </li>  
       <% }) %>
   </ul>
   
