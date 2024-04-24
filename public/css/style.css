@@ -363,6 +363,7 @@ img {
 .login-button button {
     background-color: var(--black);
         border: none;
+    border-radius: 30px;
         color: white;
         padding: 15px 30px;
         text-decoration: none;
