@@ -351,3 +351,26 @@ img {
 .pagination:hover {
     color: var(--black);
 }
+
+.login-button {
+    position:absolute;
+    align-items: ;
+    top: 60px;
+    right: 300px;
+    z-index: 9999;
+}
+
+.login-button button {
+    background-color: var(--black);
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: black;
+    /* Change color as needed */
+}

@@ -103,4 +103,15 @@ router.get("/about", (req, res) => {
   });
 });
 
+/**
+ * GET /
+ * Contact
+ */
+router.get("/contact", (req, res) => {
+  res.render("contact", {
+    currentRoute: "/contact",
+  });
+});
+
+
 module.exports = router;
