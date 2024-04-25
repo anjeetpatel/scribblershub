@@ -363,8 +363,13 @@ img {
 .login-button button {
     background-color: var(--);
         border: none;
+<<<<<<< HEAD
         border-radius: 30px;
         color: black;
+=======
+    border-radius: 30px;
+        color: white;
+>>>>>>> 192eeaeb534ca6b59b06d00bb416e9fabc918aae
         padding: 15px 30px;
         text-decoration: none;
         margin: 4px 2px;
@@ -377,6 +382,7 @@ img {
     background-color: white;
     /* Change color as needed */
 }
+<<<<<<< HEAD
 @media (max-width: 768px) {
     .login-button {
         position: static;
@@ -387,3 +393,5 @@ img {
         text-align: right;
     }
 }
+=======
+>>>>>>> 192eeaeb534ca6b59b06d00bb416e9fabc918aae
