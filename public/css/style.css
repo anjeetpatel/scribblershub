@@ -139,7 +139,7 @@ img {
 .header__button {
     display: flex;
     justify-content: end;
-    grid-area: button;
+    grid-area: button;    
 }
 
 .header__button button {
@@ -354,23 +354,36 @@ img {
 
 .login-button {
     position:absolute;
-    align-items: ;
+    /* align-items: ; */
     top: 60px;
     right: 300px;
     z-index: 9999;
 }
 
 .login-button button {
-    background-color: var(--black);
+    background-color: var(--);
         border: none;
-        color: white;
+        border-radius: 30px;
+        color: black;
         padding: 15px 30px;
         text-decoration: none;
         margin: 4px 2px;
         cursor: pointer;
+        /* transition: var(--black); */
+        transition: white;
 }
 
 .login-button button:hover {
-    background-color: black;
+    background-color: white;
     /* Change color as needed */
+}
+@media (max-width: 768px) {
+    .login-button {
+        position: static;
+        margin-top: 10px;
+        /* Adjust this value as needed */
+        margin-right: 10px;
+        /* Adjust this value as needed */
+        text-align: right;
+    }
 }
