@@ -54,7 +54,7 @@ scribblershub/
 ### Installation Steps
 1. **Clone the repository**
    ```
-   git clone https://github.com/yourusername/scribblershub.git
+   git clone https://github.com/anjeetpatel/scribblershub.git
    cd scribblershub
    ```
 
