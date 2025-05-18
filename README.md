@@ -30,6 +30,7 @@
 ---
 
 ## 📁 Project Structure
+```
 scribblershub/
 │
 ├── models/ # Mongoose schemas
@@ -39,7 +40,7 @@ scribblershub/
 ├── .env # Environment variables
 ├── app.js # Main Express app
 ├── package.json # Project metadata and dependencies
-
+```
 
 ---
 
