@@ -50,7 +50,6 @@ scribblershub/
 
 - Node.js and npm installed
 - MongoDB (local or hosted)
-- 
 ### Installation Steps
 1. **Clone the repository**
    ```
